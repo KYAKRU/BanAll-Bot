@@ -19,10 +19,10 @@ from datetime import datetime
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
 )
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
-BOT_TOKEN = getenv("BOT_TOKEN", None)
-OWNER_ID = getenv("OWNER_ID", None)
+API_ID = int(getenv("API_ID", "17542849"))
+API_HASH = getenv("API_HASH", "8f392dfdc2d0d9ca7a6201f373986fb4")
+BOT_TOKEN = getenv("BOT_TOKEN", "5347650592:AAHzAlaBUqAQVEbJEyXqgu4WGHt-gShESAc")
+OWNER_ID = getenv("OWNER_ID", "5062212424")
 SEXY  = [int(g), int(gg), int(OWNER_ID)]
 #TelegramClient..
 main = TelegramClient(
